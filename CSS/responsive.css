@@ -1,0 +1,169 @@
+
+@media screen and (max-width:980px) {
+    .carousel-caption{
+      font-size: 20px;
+      bottom: 11%;
+    }
+  
+    .carousel-caption h3{
+      font-size: 30px;
+    }
+  
+    .carousel-caption button{
+      font-size: 20px;
+      padding: 8px;
+      margin-top: 20px;
+    }
+  
+    /* ~~~~~~~ slick-Slider ~~~~~~~  */
+
+    .slick-caption {
+      position: absolute;
+      bottom: 4px;
+      background-color: antiquewhite;
+      padding: 7px;
+      margin-left: 8%;
+      width: 125px;
+      border-radius: 10px;
+      border: 1px solid chocolate;
+    }
+
+    .products {
+        border-radius: 0 0 0 0;
+        margin: -1px 0 0 0;
+        padding: 2rem;
+    }
+
+    .slider {
+        margin: 0 15%;
+    }
+    
+    .service{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+  
+@media screen and (max-width:768px) {
+    .carousel-control-prev, .carousel-control-next {
+      font-size: 15px;
+    }
+  
+    .carousel-control-prev {
+      left: 15px;
+    }
+  
+    .carousel-control-next {
+      right: 15px;
+    }
+  
+    .carousel-caption{
+      width: 70%;
+      font-size: 18px;
+      bottom: 11%;
+      left: 50px;
+    }
+  
+    .carousel-caption h3{
+      font-size: 22px;
+    }
+  
+    .carousel-caption button{
+      font-size: 18px;
+      padding: 5px;
+      margin-top: 15px;
+    }
+
+    .service{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .faqs_container{
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* ============ Become a seller========  */
+  .seller-container h4{
+    font-size: 20px;
+  }
+
+  .connect-mail{
+    width: 70%;
+  }
+}
+  
+@media screen and (max-width:540px) {
+  .carousel-caption{
+    width: 90%;
+    font-size: 15px;
+    bottom: 8%;
+  }
+  
+  .carousel-caption h3{
+    font-size: 20px;
+  }
+  
+    .carousel-caption button{
+      font-size: 14px;
+      margin-top: 11px;
+    }
+  
+    .slick-slide {
+      padding: 10px;
+    }
+
+    .slick-caption {
+        bottom: 4px;
+        padding: 3px;
+        margin-left: 10px;
+        width: 105px;
+    }
+
+    .slider {
+        width: 100%;
+        margin: 0;
+        padding: 9px;
+    }
+    
+    .service{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .service-text {
+      padding: 0 1rem;
+  }
+
+  .service-content p {
+    padding: 0 1.5rem;
+    font-size: 1.2rem;
+  }
+  .service-text h3 {
+    font-size: 2.1rem;
+    font-weight: 500;
+    padding: 1rem;
+  }
+
+  .connet-page{
+    background: #000;
+    background-color: #7F4116;
+    padding: 10% 5%;
+  }
+
+  .connect-mail{
+    width: 100%;
+    padding: 7px;
+  }
+
+  .connet-page h3{
+    font-size: 21px;
+    padding-top: 20px;
+  }
+
+  .connet-page p{
+    font-size: 18px;
+  }
+
+  .connect-mail button{
+    padding: 8px;
+    font-size: 16px;
+  }
+}
