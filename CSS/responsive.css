@@ -89,17 +89,22 @@
   .connect-mail{
     width: 70%;
   }
+
+  .footer{
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
   
 @media screen and (max-width:540px) {
   .carousel-caption{
     width: 90%;
     font-size: 15px;
-    bottom: 8%;
+    top: 32%;
+    left: 30px;
   }
   
   .carousel-caption h3{
-    font-size: 20px;
+    font-size: 17px;
   }
   
     .carousel-caption button{
@@ -165,5 +170,9 @@
   .connect-mail button{
     padding: 8px;
     font-size: 16px;
+  }
+
+  .footer{
+    grid-template-columns: repeat(1, 1fr);
   }
 }
