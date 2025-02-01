@@ -1,0 +1,63 @@
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 5%;
+}
+
+form{
+    padding: 2%;
+}
+
+.form-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;    
+}
+
+.form-part h1{
+    font-size: 2.5rem;
+}
+
+form input , select , textarea{
+    border: none;
+    background: #F8F8F8;
+    border-bottom: 1px solid #F19555;
+    color: #454545;
+    height: 60px;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.requirement{
+    margin: 2rem 0;
+}
+
+.contact-pageicon{
+    background: url(https://armesmaini.com/assets/images/contact/contact-right.jpg);
+    border-radius: 100px 0px 0 0px;
+    padding: 10%;
+    color: #fff;
+    background-size: cover;
+}
+
+.contact-pageicon i{
+    margin-right: 5%;
+    font-size: 1.6rem;
+}
+
+.contact-pageicon p{
+  margin-bottom: 5%;
+  line-height: 22px;
+  font-size: 1.35rem;
+}
+
+.contact-pageicon h4{
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.contact-pageicon .fa-brands{
+  color: #Fff;
+}

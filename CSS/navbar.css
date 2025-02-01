@@ -73,7 +73,7 @@ header {
     }
 
     .links.active {
-        display: flex; 
+        display: none; 
     }
 
     .hamburger {

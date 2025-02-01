@@ -1,85 +1,89 @@
 
 @media screen and (max-width:980px) {
-    .carousel-caption{
-      font-size: 20px;
-      bottom: 11%;
-    }
+  .carousel-caption{
+    font-size: 20px;
+    bottom: 11%;
+  }
   
-    .carousel-caption h3{
-      font-size: 30px;
-    }
+  .carousel-caption h3{
+    font-size: 30px;
+  }
   
-    .carousel-caption button{
-      font-size: 20px;
-      padding: 8px;
-      margin-top: 20px;
-    }
+  .carousel-caption button{
+    font-size: 20px;
+    padding: 8px;
+    margin-top: 20px;
+  }
   
     /* ~~~~~~~ slick-Slider ~~~~~~~  */
 
-    .slick-caption {
-      position: absolute;
-      bottom: 4px;
-      background-color: antiquewhite;
-      padding: 7px;
-      margin-left: 8%;
-      width: 125px;
-      border-radius: 10px;
-      border: 1px solid chocolate;
-    }
+  .slick-caption {
+    position: absolute;
+    bottom: 4px;
+    background-color: antiquewhite;
+    padding: 7px;
+    margin-left: 8%;
+    width: 125px;
+    border-radius: 10px;
+    border: 1px solid chocolate;
+  }
 
-    .products {
-        border-radius: 0 0 0 0;
-        margin: -1px 0 0 0;
-        padding: 2rem;
-    }
+  .products {
+    border-radius: 0 0 0 0;
+    margin: -1px 0 0 0;
+    padding: 2rem;
+  }
 
-    .slider {
-        margin: 0 15%;
-    }
+  .slider {
+    margin: 0 15%;
+  }
     
-    .service{
-        grid-template-columns: repeat(3, 1fr);
-    }
+  .service{
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .gallery-item {
+    width: 30%;
+  }
 }
   
 @media screen and (max-width:768px) {
-    .carousel-control-prev, .carousel-control-next {
-      font-size: 15px;
-    }
+  .carousel-control-prev, .carousel-control-next {
+    font-size: 15px;
+  }
   
-    .carousel-control-prev {
-      left: 15px;
-    }
+  .carousel-control-prev {
+    left: 15px;
+  }
   
-    .carousel-control-next {
-      right: 15px;
-    }
+  .carousel-control-next {
+    right: 15px;
+  }
   
-    .carousel-caption{
-      width: 70%;
-      font-size: 18px;
-      bottom: 11%;
-      left: 50px;
-    }
+  .carousel-caption{
+    width: 70%;
+    font-size: 18px;
+    bottom: 11%;
+    left: 50px;
+  }
   
-    .carousel-caption h3{
-      font-size: 22px;
-    }
+  .carousel-caption h3{
+    font-size: 22px;
+  }
   
-    .carousel-caption button{
-      font-size: 18px;
-      padding: 5px;
-      margin-top: 15px;
-    }
+  .carousel-caption button{
+    font-size: 18px;
+    padding: 5px;
+    margin-top: 15px;
+  }
 
-    .service{
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .service{
+      grid-template-columns: repeat(2, 1fr);
+  }
 
-    .faqs_container{
-      grid-template-columns: repeat(1, 1fr);
-    }
+  .faqs_container{
+    grid-template-columns: repeat(1, 1fr);
+  }
 
     /* ============ Become a seller========  */
   .seller-container h4{
@@ -92,6 +96,35 @@
 
   .footer{
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* ================ Contect Page ===============  */
+
+  .contact{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .main {
+    flex-direction: column; 
+    height: auto;
+  }
+
+  .sidebar, .content {
+    flex: 1 1 100%; 
+  }
+
+  .col {
+    width: 48%;
+  }
+
+  .gallery-item {
+    width: 48%;
+  }
+
+  .about-grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 12%;
   }
 }
   
@@ -175,4 +208,6 @@
   .footer{
     grid-template-columns: repeat(1, 1fr);
   }
+  
 }
+

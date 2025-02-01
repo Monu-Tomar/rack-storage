@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./CSS/contactPage.css">
+    <link rel="stylesheet" href="./CSS/navbar.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/responsive.css">
+</head>
+
+<body>
+     <!-- Header section  -->
+     <header class="flex justify-space-between">
+        <a href="./index.html">Jasiva</a>
+        <nav>
+          <ul class="links flex">
+            <li><a href="./about.html">About us</a></li>
+            <li class="menu-item">
+              <a href="#">Products <span class="fa-solid fa-angle-down"></span></a>
+              <ul class="nested-links">
+                <li>&raquo; <a href="#">All Products</a></li>
+                <li>&raquo; <a href="#">Light Duty Racks</a></li>
+                <li>&raquo; <a href="#">Medium Duty Racks</a></li>
+                <li>&raquo; <a href="#">Heavy Duty Racks</a></li>
+                <li>&raquo; <a href="#">Pallets</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="./contact.html">Contact us</a></li>
+          </ul>
+          <span class="hamburger"><i class="fa-solid fa-bars"></i></span>
+        </nav>
+      </header>
+    <!-- Header section End -->
+
+    <section class="banner_section">
+        <div class="container">
+            <div class="banner-content">
+                <h2>Contact Us</h2>
+            </div>
+        </div>
+    </section>
+    <!--Banner section exit-->
+
+    <div class="contact ">
+        <div class="form-part">
+            <h1>Enquire Form</h1>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="a32f89f5-bc27-4022-b494-26885bf5e292">
+                <div class="form-grid">
+                    <div>
+                        <input type="text" class="form-control" name="name" placeholder="Name*"
+                            pattern="[A-Za-z\s]{0,50}" required="" title="Please Enter Alphabet Characters Only">
+                        <span style="color:red" role="alert" id="name-error"></span>
+                    </div>
+                    <div class="phone">
+                        <input type="text" class="form-control" name="phone" placeholder="Phone*" pattern="^[6-9]\d{9}$"
+                            title="Please Enter Valid Phone Number" maxlength="15" required="">
+                    </div>
+                    <div class="email">
+                        <input type="email" class="form-control" name="email" placeholder="Email*" required="">
+                    </div>
+                    <div class="select">
+                        <select class="form-select" name="select_requirement" aria-label="Default select example"
+                            required="">
+                            <option value="">Select requirement*</option>
+                            <option value="Pallet Racking">Pallet Racking</option>
+                            <option value="Shelving">Shelving</option>
+                            <option value="Mezzanines">Mezzanines</option>
+                            <option value="Automated Storage">Automated Storage</option>
+                            <option value="Consulting">Consulting</option>
+                            <option value="Complete Solutions">Complete Solutions</option>
+                        </select>
+                    </div>
+                    <div class="organization">
+                        <input type="text" class="form-control" name="organization" placeholder="Organization*"
+                            required="">
+                    </div>
+                    <div class="know-me">
+                        <select class="form-select" name="how_do_you_know" aria-label="Default select example">
+                            <option>How do you know about us</option>
+                            <option value="Linkedin">Linkedin</option>
+                            <option value="Other social media">Other social media</option>
+                            <option value="Search Engine">Search Engine</option>
+                            <option value="Trade portals (Alibaba, Indiamart, Trade India)">Trade portals (Alibaba,
+                                Indiamart, Trade India)</option>
+                            <option value="Emailers/ Newsletters">Emailers/ Newsletters</option>
+                            <option value="Exhibitions/ Trade shows/ Seminars">Exhibitions/ Trade shows/ Seminars
+                            </option>
+                            <option value="Magazine advertisements">Magazine advertisements</option>
+                            <option value="Existing customer">Existing customer</option>
+                            <option value="Personal reference">Personal reference</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="requirement">
+                    <textarea class="form-control" name="detail_requirement" rows="3" placeholder="Detail requirements*"
+                        required=""></textarea>
+                </div>
+                <input type="hidden" name="redirect" value="http://127.0.0.1:5500/thanks.html">
+                <div class="enquire">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+        <div class="contact-pageicon">
+            <h4>Contact</h4>
+            <div class="flex">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>295, KIADB Industrial Area, 2nd Phase, Harohalli, Kanakapura Taluk, Ramangara District, Karnataka</p>
+            </div>
+            <div class="flex">
+                <i class="fa-solid fa-phone"></i>
+                <p>+91-6364882641 <br>
+                    Mon-Sat, 9am until 6pm</p>
+            </div>
+            <div class="flex">
+                <i class="fa-solid fa-envelope"></i>
+                <p>marketing.armes@maini.com <br>
+                    We reply within 24 hours</p>
+            </div>
+            <div class="social-icon">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="connet-page">
+            <div class="container">
+                <h3>Together let’s shape the future of storage solutions</h3>
+                <p>Connect with us today!</p>
+                <div class="connect-mail">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer grid">
+            <div class="logo">
+                <div class="social-icon">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <div class="company-logo">
+                    <h2><a href="#">Jasiva</a></h2>
+                </div>
+            </div>
+            <div class="quick-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">Media</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="Fproducts">
+                <h4>Products</h4>
+                <ul>
+                    <li><a href="#">Light Duty Racks</a></li>
+                    <li><a href="#">Medium Duty Racks</a></li>
+                    <li><a href="#"> Heavy Duty Racks</a></li>
+                    <li><a href="#">Pallets</a></li>
+                </ul>
+            </div>
+            <div class="address">
+                <h4>Address an Contact Details</h4>
+                <div class="flex">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>295, KIADB Industrial Area, 2nd Phase, Harohalli, Kanakapura Taluk, Ramangara District, Karnataka
+                    </p>
+                </div>
+                <div class="flex">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+91-6364882641 <br>
+                        Mon-Sat, 9am until 6pm</p>
+                </div>
+                <div class="flex">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>marketing.armes@maini.com <br>
+                        We reply within 24 hours</p>
+                </div>
+                <div class="enquire">
+                    <button onclick="location.href='./contact.html'">Enquire Now</button>
+                </div>
+            </div>
+        </div>
+        <p class="last">Copyright <a href="#">&#169; JASIVA Building Material Co., Ltd.</a> All Rights Reserved</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/4aa5804266.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

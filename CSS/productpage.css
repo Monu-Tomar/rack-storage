@@ -1,0 +1,230 @@
+/* Base styles */
+*{margin: 0; padding: 0; box-sizing: border-box;}
+a{text-decoration: none;}
+ul{list-style: none; padding: 0;}
+button{ cursor: pointer; padding: 0;}
+:disabled{ cursor: not-allowed;}
+img{vertical-align: bottom;}
+
+body{ font-family: Arial, sans-serif;}
+
+/* Container */
+.container{
+    max-width: 1230px;
+    margin: auto;
+    /* padding: 0 1rem; */
+}
+
+.row{
+    display: flex;}
+[class^="col-"]{ flex: 1 0 auto; padding: 0 3rem;}
+.col-1{ flex-basis: 8.33%; max-width: 8.33%; }
+.col-2{ flex-basis: 16.66%; min-width: 16.66%; }
+.col-3{ flex-basis: 25%; max-width: 25%; }
+.col-4{ flex-basis: 33.3336%; max-width: 33.3336%; }
+.col-5{ flex-basis: 41.66%; max-width: 41.66%; }
+.col-6{ flex-basis: 50%; max-width: 50%; }
+.col-7{ flex-basis: 58.33%; max-width: 58.33%; }
+.col-8{ flex-basis: 66.66%; max-width: 66.66%; }
+.col-9{ flex-basis: 75%; max-width: 75%; }
+.col-10{ flex-basis: 83.33%; max-width: 83.33%; }
+.col-11{ flex-basis: 91.66%; max-width: 91.66%; }
+.col-12{ flex-basis: 100%; max-width: 100%; }
+.col-auto{ flex-basis: 20%; max-width: 20%; }
+
+/* wrap-1 */
+.product-img{ position: relative;}
+
+.product-text{
+    position: absolute;
+    background-color: #BE6222;
+    bottom: 0;
+    color: #fff;
+    height: 50%;
+    width: 30%;
+    border-top-right-radius: 50px;
+    padding-left: 10rem;
+}
+.product-text p a{color: inherit; opacity: 0.7; padding-right: 10px;}
+.product-text h1{ padding-top: 25px;} 
+.product-text p{ padding-top: 8px;}
+
+/* wrap-2 */
+.text-part h1{font-size: 4rem;}
+.text-section{ display: flex; }
+.text-part{ padding:12rem 0 0 5rem;}
+.text-img img{ margin: 5rem 5rem; border-radius: 100px 0 100px 0;  box-shadow: 15px 15px 5px lightblue; width: 80%;}
+.text-part p{padding-top: 3rem; font-size: 20px;}
+
+/* wrap-3 */
+.wrap-3{
+     background-image: url(https://armesmaini.com/assets/images/home/store-1.svg);
+     background-color: #cccaca73;
+}
+
+.wrap-3 h1{
+    text-align: center;
+    padding-top: 2rem;
+}
+.boxs{ 
+    display: flex; 
+    flex-wrap: wrap;
+    margin: 3rem 4rem;
+}
+
+.boxs-text:hover{
+    background-color: #BE6222;
+    color: #fff;
+}
+
+.boxs-text{ 
+    border: 1px solid #BE6222;
+    padding: 20px 24px;
+    margin: 1rem;
+    width: 322px;
+}
+
+.boxs-text p{ margin-top: 2rem;} 
+
+/* wrap-4 */
+.wrap-4{
+    background-image: url(https://armesmaini.com/assets/images/home/testimonial-left.svg);
+    background-color: #cccaca73;
+}
+
+.wrap-4 h1{
+   text-align: center;
+   padding-top: 2rem;
+}
+.application-part{ 
+   display: flex; 
+   flex-wrap: wrap;
+   margin: 3rem 4rem;
+}
+
+.application-text:hover{
+   background-color: #BE6222;
+   color: #fff;
+}
+
+.application-text{ 
+   border: 1px solid #BE6222;
+   padding: 20px 24px;
+   margin: 1rem;
+   width: 322px;
+}
+
+.application-text p{ margin-top: 2rem;} 
+
+
+
+
+/* Tablet View */
+
+@media (max-width: 990px){
+    .product-text{ padding-left: 5rem;}
+    .text-part{ padding: 8rem 0 0 5rem; margin-bottom: 4rem;}
+    .text-img img{ margin: 5rem 0 0 5rem } 
+    .boxs{ margin: 3rem 7rem;}
+    .application-part{margin: 3rem 7rem;}
+    .wrap-4 h1{ margin-left: 4rem;}
+}
+
+@media (max-width: 880px){
+    /* .product-text{} */
+    .wrap-4 h1{ margin-left: 62px; padding-top: 4rem;}
+    .boxs{ margin: 8rem 3rem;}
+    .text-img img{margin: 5rem 0 0 3rem; width: 80%;}
+    .text-part { padding: 5rem 0 0 2rem;}
+    .application-part{ margin: 3rem 3rem;}
+}
+@media (max-width: 768px) {
+    .col-12{ flex-basis: 100%; max-width: 100%; }
+    .product-text{
+        width: 50%;
+        padding-left: 2rem;
+    }
+
+    .text-section{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-part{
+        padding: 5rem 0 0 0;
+        text-align: center;
+    }
+
+    .text-img img{
+        margin: 2rem 0;
+        width: 100%;
+        border-radius: 0;
+        box-shadow: none;
+        padding: 0;
+    }
+
+    .boxs{
+        margin: 2rem 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boxs-text{
+        width: 90%;
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    .application-part{
+        margin: 2rem 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .application-text{
+        width: 90%;
+        margin: 1rem 0;
+        text-align: center;
+    }
+}
+
+/* Mobile View */
+@media (max-width: 480px) {
+
+    .product-text{
+        width: 70%;
+        padding-left: 1rem;
+    }
+
+    .text-part h1{
+        font-size: 2.5rem;
+    }
+
+    .text-part p{
+        font-size: 16px;
+    }
+
+    .boxs{
+        margin: 2rem 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boxs-text{
+        width: 100%;
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    .application-part{
+        margin: 2rem 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .application-text{
+        width: 100%;
+        margin: 1rem 0;
+        text-align: center;
+    }
+}
