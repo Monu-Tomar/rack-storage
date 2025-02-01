@@ -113,10 +113,6 @@
     flex: 1 1 100%; 
   }
 
-  .col {
-    width: 48%;
-  }
-
   .gallery-item {
     width: 48%;
   }

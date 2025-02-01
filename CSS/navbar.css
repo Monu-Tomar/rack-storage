@@ -60,6 +60,7 @@ header {
         right: 0;
         background-color: #333;
         padding: 10px 20px;
+        gap: 0;
     }
     .nested-links {
         border-radius: 10px;
@@ -83,7 +84,4 @@ header {
     .links li {
         margin: 10px 20px; 
     }
-    .links {
-        gap: 0;
-     }
 }
