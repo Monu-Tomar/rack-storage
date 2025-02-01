@@ -23,7 +23,7 @@ body{ font:16px/1.3 var(--ff);}
 .align-items{ align-items: center;}
 
 .banner_section{
-  background: url(/imgage/banner.jpg) no-repeat center/cover;
+  background: url(../imgage/banner.jpg) no-repeat center/cover;
   height: 250px;
   margin-bottom: 4%;
 }
