@@ -95,15 +95,7 @@
   .seller-container h4{
     font-size: 20px;
   }
-
-  .connect-mail{
-    width: 70%;
-  }
-
-  .footer{
-    grid-template-columns: repeat(2, 1fr);
-  }
-
+  
   /* ================ Contect Page ===============  */
 
   .contact{
@@ -185,35 +177,4 @@
     font-weight: 500;
     padding: 1rem;
   }
-
-  .connet-page{
-    background: #000;
-    background-color: #7F4116;
-    padding: 10% 5%;
-  }
-
-  .connect-mail{
-    width: 100%;
-    padding: 7px;
-  }
-
-  .connet-page h3{
-    font-size: 21px;
-    padding-top: 20px;
-  }
-
-  .connet-page p{
-    font-size: 18px;
-  }
-
-  .connect-mail button{
-    padding: 8px;
-    font-size: 16px;
-  }
-
-  .footer{
-    grid-template-columns: repeat(1, 1fr);
-  }
-  
 }
-

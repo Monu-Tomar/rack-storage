@@ -1,0 +1,140 @@
+.connet-page{
+    background: url(https://armesmaini.com/assets/images/home/footer-1.jpg);
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    padding: 15% 10%;
+    color: #fff;
+    font-size: 28px;
+  }
+  
+  .connect-mail{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+    margin-top: 25px;
+  }
+  
+  .connect-mail input{
+    border: none;
+  }
+  
+  .connect-mail button{
+    border: 1px solid #FF9B56;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #FF9B56;
+    width: 30%;
+  }
+  
+  .connet-page h3{
+    margin-bottom: 12px;
+  }
+  
+  .footer{
+    background: url(https://armesmaini.com/assets/images/home/footer-right.svg);
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    font-size: 18px;
+    padding: 8% 5% 4% 8%;
+  }
+  
+  .footer{
+    background-position: 100% top;
+    background-repeat: no-repeat;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .footer h4{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer li{
+    margin-bottom: 5%;
+  }
+  
+  .social-icon{
+    font-size: 26px;
+    color: #F19555;
+    margin-bottom: 1rem;
+  }
+  
+  .address i{
+    color: #FF9B56;
+    margin-right: 5%;
+    font-size: 25px;
+  }
+  
+  .address p{
+    align-items: center;
+    margin-bottom: 5%;
+    line-height: 22px;
+  }
+  
+  .enquire button{
+    background-color: #FF9B56;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 10px;
+    color: #fff;
+    border: none;
+  }
+  
+  .last{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    text-align: center;
+    margin-top: -1px;
+    padding: 10px;
+  }
+  
+  /* ======= Responsive ======  */
+
+@media screen and (max-width:768px) {
+
+  .connect-mail{
+   width: 70%;
+  }
+  
+  .footer{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 540px) {
+    .connet-page{
+        background: #000;
+        background-color: #7F4116;
+        padding: 10% 5%;
+      }
+    
+      .connect-mail{
+        width: 100%;
+        padding: 7px;
+      }
+    
+      .connet-page h3{
+        font-size: 21px;
+        padding-top: 20px;
+      }
+    
+      .connet-page p{
+        font-size: 18px;
+      }
+    
+      .connect-mail button{
+        padding: 8px;
+        font-size: 16px;
+      }
+    
+      .footer{
+        grid-template-columns: repeat(1, 1fr);
+      }
+      
+}

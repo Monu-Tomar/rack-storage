@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,19 @@
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="./CSS/responsive.css">
     <link rel="stylesheet" href="./CSS/navbar.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
+    <style>
+        @media screen and (max-width:980px) {
+          .links.active {
+            display: block;
+          }
+        }
+      </style>
 </head>
+
 <body>
-     <!-- Header section  -->
-     <header class="flex justify-space-between">
+    <!-- Header section  -->
+    <header class="flex justify-space-between">
         <a href="./index.html">Jasiva</a>
         <nav>
             <ul class="links flex">
@@ -46,70 +56,75 @@
     <!-- ===== Footer section ======  -->
     <footer>
         <div class="connet-page">
-          <div class="container">
-            <h3>Together let’s shape the future of storage solutions</h3>
-            <p>Connect with us today!</p>
-            <div class="connect-mail">
-              <input type="email" placeholder="Enter your email">
-              <button type="submit">Submit</button>
+            <div class="container">
+                <h3>Together let’s shape the future of storage solutions</h3>
+                <p>Connect with us today!</p>
+                <div class="connect-mail">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Submit</button>
+                </div>
             </div>
-          </div>
         </div>
-    
+
         <div class="footer grid">
-          <div class="logo">
-            <div class="social-icon">
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#"><i class="fa-brands fa-facebook"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <div class="logo">
+                <div class="social-icon">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <div class="company-logo">
+                    <h2><a href="#">Jasiva</a></h2>
+                </div>
             </div>
-            <div class="company-logo">
-              <h2><a href="#">Jasiva</a></h2>
+            <div class="quick-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">Media</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
             </div>
-          </div>
-          <div class="quick-links">
-            <h4>Quick Links</h4>
-            <ul>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Resources</a></li>
-              <li><a href="#">Media</a></li>
-              <li><a href="#">Contact us</a></li>
-              <li><a href="#">Sitemap</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-            </ul>
-          </div>
-          <div class="Fproducts">
-            <h4>Products</h4>
-            <ul>
-              <li><a href="#">Light Duty Racks</a></li>
-              <li><a href="#">Medium Duty Racks</a></li>
-              <li><a href="#"> Heavy Duty Racks</a></li>
-              <li><a href="#">Pallets</a></li>
-            </ul>
-          </div>
-          <div class="address">
-            <h4>Address an Contact Details</h4>
-            <div class="flex">
-              <i class="fa-solid fa-location-dot"></i>
-              <p>295, KIADB Industrial Area, 2nd Phase, Harohalli, Kanakapura Taluk, Ramangara District, Karnataka</p>
+            <div class="Fproducts">
+                <h4>Products</h4>
+                <ul>
+                    <li><a href="#">Light Duty Racks</a></li>
+                    <li><a href="#">Medium Duty Racks</a></li>
+                    <li><a href="#"> Heavy Duty Racks</a></li>
+                    <li><a href="#">Pallets</a></li>
+                </ul>
             </div>
-            <div class="flex">
-              <i class="fa-solid fa-phone"></i>
-              <p>+91-6364882641 <br>
-                Mon-Sat, 9am until 6pm</p>
+            <div class="address">
+                <h4>Address an Contact Details</h4>
+                <div class="flex">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>295, KIADB Industrial Area, 2nd Phase, Harohalli, Kanakapura Taluk, Ramangara District, Karnataka
+                    </p>
+                </div>
+                <div class="flex">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+91-6364882641 <br>
+                        Mon-Sat, 9am until 6pm</p>
+                </div>
+                <div class="flex">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>marketing.armes@maini.com <br>
+                        We reply within 24 hours</p>
+                </div>
+                <div class="enquire">
+                    <button onclick="location.href='./contact.html'">Enquire Now</button>
+                </div>
             </div>
-            <div class="flex">
-              <i class="fa-solid fa-envelope"></i>
-              <p>marketing.armes@maini.com <br>
-                We reply within 24 hours</p>
-            </div>
-            <div class="enquire">
-              <button onclick="location.href='./contact.html'">Enquire Now</button>
-            </div>
-          </div>
         </div>
         <p class="last">Copyright <a href="#">&#169; JASIVA Building Material Co., Ltd.</a> All Rights Reserved</p>
-      </footer>
+    </footer>
+
+    <script src="./javascript/script.js"></script>
+    <script src="https://kit.fontawesome.com/4aa5804266.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
