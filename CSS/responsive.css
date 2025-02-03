@@ -112,13 +112,13 @@
   }
 
   .gallery-item {
-    width: 75%;
+    width: 90%;
   }
 
   .about-grid{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding-left: 12%;
+    /* padding-left: 12%; */
   }
 }
   
@@ -176,5 +176,18 @@
     font-size: 2.1rem;
     font-weight: 500;
     padding: 1rem;
+  }
+
+  .banner_section{
+    height: 180px;
+  }
+
+  .product-text h1 {
+    padding-top: 15px;
+    font-size: 20px;
+  }
+
+  .product-text p {
+    font-size: 1rem;
   }
 }

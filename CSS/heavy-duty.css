@@ -25,14 +25,14 @@
 }
 
 .about-content {
-    padding: 20px;
+    padding: 20px 0;
     font-size: 20px;
-    line-height: 1.4;
+    line-height: 1.2;
 }
 
 .para{
     font-size: 20px;
-    line-height: 1.4;
+    line-height: 1.2;
 }
 
 .about-content img{
