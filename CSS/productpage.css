@@ -121,7 +121,6 @@
 }
 
 @media (max-width: 880px){
-    /* .product-text{} */
     .wrap-4 h1{ margin-left: 62px; padding-top: 4rem;}
     .boxs{ margin: 8rem 3rem;}
     .text-img img{margin: 5rem 0 0 3rem; width: 80%;}

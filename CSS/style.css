@@ -33,6 +33,23 @@ body{ font:16px/1.3 var(--ff);}
   color: #fff;
 }
 
+/* wrap-1 */
+.product-img{ position: relative;}
+
+.product-text{
+    position: absolute;
+    background-color: #BE6222;
+    bottom: 0;
+    color: #fff;
+    height: 50%;
+    width: 30%;
+    border-top-right-radius: 50px;
+    padding-left: 4rem;
+}
+.product-text p a{color: inherit; opacity: 0.7; padding-right: 10px;}
+.product-text h1{ padding-top: 25px;} 
+.product-text p{ padding-top: 8px;}
+
 /* ========================= Slider ===========================  */
 
 .carousel {

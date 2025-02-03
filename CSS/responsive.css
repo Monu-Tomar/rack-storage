@@ -1,5 +1,6 @@
 
 @media screen and (max-width:980px) {
+  .product-text{ padding-left: 5rem;}
   .carousel-caption{
     font-size: 20px;
     bottom: 11%;
@@ -48,6 +49,11 @@
 }
   
 @media screen and (max-width:768px) {
+  .col-12{ flex-basis: 100%; max-width: 100%; }
+  .product-text{
+      width: 50%;
+      padding-left: 2rem;
+  }
   .carousel-control-prev, .carousel-control-next {
     font-size: 15px;
   }
@@ -114,7 +120,7 @@
   }
 
   .gallery-item {
-    width: 48%;
+    width: 75%;
   }
 
   .about-grid{
@@ -125,6 +131,10 @@
 }
   
 @media screen and (max-width:540px) {
+  .product-text{
+    width: 70%;
+    padding-left: 1rem;
+}
   .carousel-caption{
     width: 90%;
     font-size: 15px;
