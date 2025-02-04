@@ -22,10 +22,10 @@
 <body>
     <!-- Header section  -->
     <header class="flex justify-space-between">
-        <a href="./index.html">
-            <img src="./imgage/logo-removebg.png" alt="Logo" height="50px"> <br>
-            Jasiva
-          </a>
+        <a href="./index.html" class="Logo flex">
+            <img src="./imgage/logo-removebg.png" alt="Logo" height="40px">
+            <span>Jasiva</span>
+        </a>
         <nav>
             <ul class="links flex">
                 <li><a href="./about.html">About us</a></li>
@@ -107,7 +107,7 @@
                 <form action="https://api.web3forms.com/submit" method="POST">
                     <h2>Enquire Form</h2>
                     <input type="hidden" name="access_key" value="a32f89f5-bc27-4022-b494-26885bf5e292">
-                    <div>
+                    <div class="product-grid">
                         <div>
                             <input type="text" class="form-control" name="name" placeholder="Name*"
                                 pattern="[A-Za-z\s]{0,50}" required="" title="Please Enter Alphabet Characters Only">
@@ -121,6 +121,74 @@
                         <div class="email">
                             <input type="email" class="form-control" name="email" placeholder="Email*" required="">
                         </div>
+                        <div class="select">
+                            <select class="form-select" name="select_requirement" aria-label="Default select example"
+                                required="">
+                                <option value="">Select requirement*</option>
+                                <option value="Pallet Racking">Pallet Racking</option>
+                                <option value="Shelving">Heavy Duty Racks</option>
+                                <option value="Mezzanines">Medium Duty Racks</option>
+                                <option value="Consulting">Light Duty Racks</option>
+                            </select>
+                        </div>
+                        <div class="select">
+                            <select class="form-select" name="select_requirement" aria-label="Default select example"
+                                required="">
+                                <option value="">Select Width*</option>
+                                <option value="Pallet Racking">1,2 m</option>
+                                <option value="Pallet Racking">2,3 m</option>
+                                <option value="Pallet Racking">3,5 m</option>
+                                <option value="Pallet Racking">4,6 m</option>
+                                <option value="Pallet Racking">5,8 m</option>
+                                <option value="Pallet Racking">6,9 m</option>
+                                <option value="Pallet Racking">8 m</option>
+                                <option value="Pallet Racking">9,2 m</option>
+                                <option value="Pallet Racking">10,4 m</option>
+                                <option value="Pallet Racking">11,4 m</option>
+                                <option value="Pallet Racking">12,5 m</option>
+                                <option value="Pallet Racking">13,7 m</option>
+                                <option value="Pallet Racking">16 m</option>
+                                <option value="Pallet Racking">18,3 m</option>
+                                <option value="Pallet Racking">20,5 m</option>
+                                <option value="Pallet Racking">31,9 m</option>
+                                <option value="Pallet Racking">50 m</option>
+                                <option value="Pallet Racking">100 m</option>
+                            </select>
+                        </div>
+                        <div class="select">
+                            <select class="form-select" name="select_requirement" aria-label="Default select example"
+                                required="">
+                                <option value="">Select Height*</option>
+                                <option value="Pallet Racking">200 cm</option>
+                                <option value="Pallet Racking">250 cm</option>
+                                <option value="Pallet Racking">300 cm</option>
+                                <option value="Pallet Racking">350 cm</option>
+                                <option value="Pallet Racking">400 cm</option>
+                            </select>
+                        </div>
+                        <div class="select">
+                            <select class="form-select" name="select_requirement" aria-label="Default select example"
+                                required="">
+                                <option value="">Select Depth*</option>
+                                <option value="Pallet Racking">40 cm</option>
+                                <option value="Pallet Racking">50 cm</option>
+                                <option value="Pallet Racking">60 cm</option>
+                                <option value="Pallet Racking">80 cm</option>
+                                <option value="Pallet Racking">100 cm</option>
+                                <option value="Pallet Racking">120 cm</option>
+                            </select>
+                        </div>
+                        <div class="select">
+                            <select class="form-select" name="select_requirement" aria-label="Default select example"
+                                required="">
+                                <option value="">No. of layers *</option>
+                                <option value="Pallet Racking">2</option>
+                                <option value="Pallet Racking">3</option>
+                                <option value="Pallet Racking">4</option>
+                                <option value="Pallet Racking">5</option>
+                                <option value="Pallet Racking">6</option>
+                            </select>
+                        </div>
                     </div>
                     <div class="requirement">
                         <textarea class="form-control" name="detail_requirement" rows="3"
@@ -131,6 +199,16 @@
                         <button type="submit">Submit</button>
                     </div>
                 </form>
+                <div class="other-links">
+                    <h2>Other Products</h2>
+                    <ul>
+                        <li><a href="./Product.html">&raquo; All Products</a></li>
+                        <li><a href="./heavy-duty.html">&raquo; Heavy Duty Racks</a></li>
+                        <li><a href="./medium-duty.html">&raquo; Medium Duty Racks</a></li>
+                        <li><a href="./light-duty.html">&raquo; Light Duty Racks</a></li>
+                        <li><a href="./pallets.html">&raquo; Pallets</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -195,8 +273,11 @@
                     <a href="#"><i class="fa-brands fa-linkedin"></i></a>
                     <a href="#"><i class="fa-brands fa-youtube"></i></a>
                 </div>
-                <div class="company-logo">
-                    <h2><a href="#">Jasiva</a></h2>
+                <div>
+                    <a href="./index.html" class="company-logo flex">
+                        <img src="./imgage/logo-removebg.png" alt="Logo" width="120px">
+                        <span>Jasiva</span>
+                    </a>
                 </div>
             </div>
             <div class="quick-links">

@@ -64,12 +64,21 @@
     color: #F19555;
     margin-bottom: 1rem;
   }
+
+.company-logo{
+  gap: 10px;
+  flex-direction: column;
+}    
+
+.company-logo span{
+  font-size: 2rem;
+}
   
-  .address i{
+.address i{
     color: #FF9B56;
     margin-right: 5%;
     font-size: 25px;
-  }
+}
   
   .address p{
     align-items: center;
