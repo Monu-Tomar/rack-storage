@@ -1,0 +1,189 @@
+.flex-basis {
+    flex-basis: auto;
+  }
+
+  a{color: inherit; text-decoration: none;}
+  
+  .airport {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .airport button {
+    width: 120px;
+    height: 50px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    background-color: #f85928;
+  }
+  
+  .basis {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .para-1 {
+    margin: 0 auto 100px auto;
+  }
+  
+  .para-1 h4 {
+    margin-top: 40px;
+  }
+  
+  .icon {
+    display: flex;
+    gap: 15px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .icon:hover i:not(:hover) {
+    transform: translate(0, -5px);
+  }
+  
+  .icon i {
+    transition: transform 0.3s ease;
+  }
+  
+  .carousel-slider {
+    background-color: #fff;
+    padding: 30px 15px;
+    border: 1px solid #111;
+  }
+  
+  .carousel-slider h1 {
+    margin-bottom: 30px;
+    color: #f85928;
+  }
+  
+  .container-fluid p {
+    color: #f85928;
+  }
+  
+  .bottom {
+    margin: 40px 0;
+  }
+  
+  .next:hover {
+    color: #f85928;
+  }
+  
+  /*  Responsive Design for Tablets and Mobile */
+
+  @media only screen and (max-width: 1024px) {
+    .airport {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .airport button {
+      margin-top: 20px;
+    }
+  
+    .basis {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+  
+    .icon {
+      font-size: 25px;
+      gap: 20px;
+    }
+  
+    .carousel-slider {
+      padding: 20px;
+    }
+  
+    .para-1 h4 {
+      margin-top: 30px;
+    }
+  
+    .bottom {
+      margin: 30px 0;
+    }
+  
+    .container {
+      padding: 0 15px;
+      font-size: 16px;
+    }
+  
+    .basis img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .airport {
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: center;
+    }
+  
+    .airport h1 {
+      font-size: 1.5rem;
+    }
+  
+    .airport button {
+      height: 45px;
+      margin-top: 20px;
+    }
+  
+    .basis {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .basis .content {
+      width: 100%;
+    }
+  
+    .para-1 h4 {
+      margin-top: 25px;
+    }
+  
+    .icon {
+      font-size: 20px;
+      gap: 15px;
+    }
+  
+    .carousel-slider {
+      padding: 15px;
+    }
+  
+    .bottom {
+      margin: 20px 0;
+    }
+  
+    .container {
+      padding: 0 10px;
+      font-size: 14px;
+    }
+  
+    .carousel-inner img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .carousel-slider h1 {
+      font-size: 1.8rem;
+    }
+  
+    .next:hover {
+      color: #f85928;
+    }
+  
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+  

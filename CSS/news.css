@@ -1,0 +1,162 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+canvas, img, video {
+    vertical-align: bottom;
+}
+
+button {
+    cursor: pointer;
+    padding: 0;
+}
+
+label {
+    display: inline-block;
+}
+
+:disabled {
+    cursor: not-allowed;
+}
+
+/* body {
+    background-color: rgb(240, 236, 236);
+} */
+
+.container {
+    max-width: 1230px;
+    margin: auto;
+    padding: 20px;
+}
+
+.flex {
+    display: flex;
+    gap: 20px;
+}
+
+.para {
+    margin-top: 50px;
+    border-bottom: #413c3c dotted 1px;
+    padding-bottom: 30px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.para h2 {
+    margin: 20px 0;
+}
+
+.para p {
+    font-size: 19px;
+    color: #413c3c;
+}
+
+.btnn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    color: #e43f0d;
+    align-content: center;
+}
+
+.btnn button {
+    padding: 10px 15px;
+    font-size: 17px;
+    background: none;
+    color: #e43f0d;
+    border-color: #e43f0d;
+    font-weight: 600;
+}
+
+.btnn button:hover {
+    background-color: #e43f0d;
+    color: #fff;
+}
+
+.time {
+    align-items: center;
+    align-content: center;
+    display: flex;
+    gap: 12px;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width: 768px) {
+    .flex {
+        /* flex-direction: column; */
+        gap: 20px;
+    }
+
+    .para {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .para h2 {
+        font-size: 24px;
+    }
+
+    .para p {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+
+    .btnn {
+        align-items: center;
+        margin-top: 40px;
+        padding: 0 25px;
+    }
+
+    .btnn button {
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        padding: 10px;
+    }
+
+    .para {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .para h2 {
+        font-size: 22px;
+    }
+
+    .para p {
+        font-size: 14px;
+    }
+
+    .btnn {
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .btnn button {
+        font-size: 16px;
+    }
+
+    .time {
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .para img {
+        width: 100%;
+    }
+}
