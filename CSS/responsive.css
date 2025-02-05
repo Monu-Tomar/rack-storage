@@ -169,8 +169,9 @@
     }
 
     .service-text {
-      padding: 0 1rem;
-  }
+      align-items: center;
+      padding-left: 2rem;
+    }
 
   .service-content p {
     padding: 0 1.5rem;
