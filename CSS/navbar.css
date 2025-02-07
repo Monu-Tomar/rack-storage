@@ -22,6 +22,7 @@ header {
 
 .links {
    gap: 25px;
+   align-items: center;
 }
 
 .links a {
@@ -30,6 +31,14 @@ header {
     &:hover{
         color: #0026ff;
     }
+}
+
+.links button{
+    padding: 10px;
+    background-color: #ee7d2d;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
 }
 
 .nested-links {
@@ -60,10 +69,6 @@ header {
 
 
 @media screen and (max-width: 768px) {
-    /* .Logo {
-        flex-direction: row;
-    } */
-
     header{
         background-color: #333;
         padding: 5px 20px;
