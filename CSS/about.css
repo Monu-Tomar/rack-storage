@@ -55,7 +55,7 @@ body {
     line-height: 1.6;
 }
 
-/* ===================  */
+/* ======== Gallery Section ===========  */
 
 .gallery_section {
     padding: 50px 0;
@@ -65,6 +65,7 @@ body {
     font-size: 24px;
     margin-bottom: 20px;
 }
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -72,23 +73,68 @@ body {
     justify-content: center;
     margin-top: 2%;
 }
+
 .gallery-item {
     width: 100%;
 }
+
 .gallery-item img {
     width: 100%;
     height: auto;
     border-radius: 10px;
 }
+
 @media (min-width: 600px) {
     .gallery-item {
         width: 48%;
     }
 }
+
 @media (min-width: 900px) {
     .gallery-item {
         width: 30%;
     }
+}
+
+.lightbox-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+    text-align: center;
+}
+
+#modal-img {
+    width: 100%;
+    height: auto;
+    max-height: 80vh;
+    object-fit: contain;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: #f44336;
 }
 
 /* ================== Enquiry form ============ */

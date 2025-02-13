@@ -22,7 +22,7 @@ header {
 
 .links {
    gap: 25px;
-   align-items: center;
+   align-items: baseline;
 }
 
 .links a {

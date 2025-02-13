@@ -66,3 +66,31 @@ faqs.forEach(faq => {
         }
     });
 });
+
+// ============== Open Gallery image ================= 
+
+document.addEventListener("DOMContentLoaded", function () {
+  const imageLinks = document.querySelectorAll('.image-link');
+  const modal = document.getElementById('lightbox-modal');
+  const modalImg = document.getElementById('modal-img');
+  const closeBtn = document.getElementById('close-btn');
+
+  imageLinks.forEach(link => {
+      link.addEventListener('click', function (event) {
+          event.preventDefault();
+          const imgSrc = this.querySelector('img').src;
+          modal.style.display = 'flex';
+          modalImg.src = imgSrc;
+      });
+  });
+
+  closeBtn.addEventListener('click', function () {
+      modal.style.display = 'none'; 
+  });
+
+  modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+          modal.style.display = 'none';
+      }
+  });
+});

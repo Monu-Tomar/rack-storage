@@ -64,6 +64,9 @@
     color: #F19555;
     margin-bottom: 1rem;
   }
+.social-icon a{
+  margin-left: 10px;
+}
 
 .company-logo{
   gap: 10px;
