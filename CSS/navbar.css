@@ -39,7 +39,7 @@ header {
 }
 
 .links {
-   gap: 25px;
+   gap: 70px;
    align-items: baseline;
 }
 
@@ -86,10 +86,17 @@ header {
 /* ============== Responsive ==============  */
 
 
+@media screen and (max-width: 980px) {
+    .links{
+        gap: 23px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     header{
         background-color: #333;
         padding: 5px 20px;
+        justify-content: space-between;
     }
     .top-media{
         display: none;
