@@ -11,6 +11,8 @@ header {
     z-index: 100;
 }
 
+.justify-content{justify-content: space-around;}
+
 .top-media{
     padding-top: 10px;
 }

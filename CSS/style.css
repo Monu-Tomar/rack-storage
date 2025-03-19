@@ -20,7 +20,7 @@ body{ font:16px/1.3 var(--ff);}
 .justify-space-between{ justify-content: space-between;}
 .justify-right{ justify-content: right;}
 .justify-center{ justify-content: center;}
-.justify-content{justify-content: space-around;}
+/* .justify-content{justify-content: space-around;} */
 .align-items{ align-items: center;}
 
 .banner_section{
