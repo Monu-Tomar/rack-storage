@@ -16,6 +16,10 @@
         width: 50%;
         padding-left: 2rem;
       }
+
+      .top-media {
+        display: none;
+      }
     }
 
     @media screen and (max-width:540px) {
@@ -39,31 +43,51 @@
 
 <body>
   <!-- Header section -->
-  <header class="flex justify-space-between">
-    <a href="./index.html" class="Logo flex">
-      <img src="./imgage/logo-removebg.png" alt="Logo" height="40px">
-      <span>Jasiva</span>
-    </a>
-    <nav>
-      <ul class="links flex">
-        <li><a href="./about.html">About us</a></li>
-        <li class="menu-item">
-          <a href="./Product.html">Products <span class="fa-solid fa-angle-down"></span></a>
-          <ul class="nested-links">
-            <li>&raquo; <a href="./Product.html">All Products</a></li>
-            <li>&raquo; <a href="./heavy-duty.html">Heavy Duty Racks</a></li>
-            <li>&raquo; <a href="#">Medium Duty Racks</a></li>
-            <li>&raquo; <a href="#">Light Duty Racks</a></li>
-            <li>&raquo; <a href="#">Pallets</a></li>
-          </ul>
-        </li>
-        <li><a href="./resource.html">Resources</a></li>
-        <li><a href="./news.html">News</a></li>
-        <li><a href="./contact.html">Contact us</a></li>
-        <li><button onclick="location.href='contact.html'">GET A QUOTE</button></li>
-      </ul>
-      <span class="hamburger"><i class="fa-solid fa-bars"></i></span>
-    </nav>
+  <header class="align-items flex">
+    <div>
+      <a href="./index.html" class="Logo flex">
+        <img src="./imgage/logo-removebg.png" alt="Logo" height="60px">
+        <span>Jasiva</span>
+      </a>
+    </div>
+    <div>
+      <div class="top-media flex justify-content">
+        <p>
+          <i class="fa-solid fa-phone"></i>
+          +91 99*****999
+        </p>
+        <p>
+          <i class="fa-solid fa-envelope"></i>
+          fakeid@gmail.com
+        </p>
+        <p>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </p>
+      </div>
+      <hr class="hr">
+      <nav>
+        <ul class="links flex">
+          <li><a href="./about.html">About us</a></li>
+          <li class="menu-item">
+            <a href="./Product.html">Products <span class="fa-solid fa-angle-down"></span></a>
+            <ul class="nested-links">
+              <li>&raquo; <a href="./Product.html">All Products</a></li>
+              <li>&raquo; <a href="./heavy-duty.html">Heavy Duty Racks</a></li>
+              <li>&raquo; <a href="./medium-duty.html">Medium Duty Racks</a></li>
+              <li>&raquo; <a href="./light-duty.html">Light Duty Racks</a></li>
+              <li>&raquo; <a href="./pallets.html">Pallets</a></li>
+            </ul>
+          </li>
+          <li><a href="./resource.html">Resources</a></li>
+          <li><a href="./news.html">News</a></li>
+          <li><a href="./contact.html">Contact us</a></li>
+          <li><button onclick="location.href='contact.html'">GET A QUOTE</button></li>
+        </ul>
+        <span class="hamburger"><i class="fa-solid fa-bars"></i></span>
+      </nav>
+    </div>
   </header>
 
   <!-- Banner section -->
@@ -257,75 +281,75 @@
 
   <footer>
     <div class="connet-page">
-        <div class="container">
-            <h3>Together let’s shape the future of storage solutions</h3>
-            <p>Connect with us today!</p>
-            <div class="connect-mail">
-                <input type="email" placeholder="Enter your email">
-                <button type="submit">Submit</button>
-            </div>
+      <div class="container">
+        <h3>Together let’s shape the future of storage solutions</h3>
+        <p>Connect with us today!</p>
+        <div class="connect-mail">
+          <input type="email" placeholder="Enter your email">
+          <button type="submit">Submit</button>
         </div>
+      </div>
     </div>
 
     <div class="footer grid">
-        <div class="logo">
-            <div class="social-icon">
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-youtube"></i></a>
-            </div>
-            <div>
-                <a href="./index.html" class="company-logo flex">
-                    <img src="./imgage/logo-removebg.png" alt="Logo" width="120px">
-                    <span>Jasiva</span>
-                </a>
-            </div>
+      <div class="logo">
+        <div class="social-icon">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
         </div>
-        <div class="quick-links">
-            <h4>Quick Links</h4>
-            <ul>
-                <li><a href="./about.html">About us</a></li>
-                <li><a href="./resource.html">Resources</a></li>
-                <li><a href="./news.html">News</a></li>
-                <li><a href="./contact.html">Contact us</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-            </ul>
+        <div>
+          <a href="./index.html" class="company-logo flex">
+            <img src="./imgage/logo-removebg.png" alt="Logo" width="120px">
+            <span>Jasiva</span>
+          </a>
         </div>
-        <div class="Fproducts">
-            <h4>Products</h4>
-            <ul>
-                <li><a href="./Product.html">All Products</a></li>
-                <li><a href="./light-duty.html">Light Duty Racks</a></li>
-                <li><a href="./medium-duty.html">Medium Duty Racks</a></li>
-                <li><a href="./heavy-duty.html"> Heavy Duty Racks</a></li>
-                <li><a href="./pallets.html">Pallets</a></li>
-            </ul>
+      </div>
+      <div class="quick-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="./about.html">About us</a></li>
+          <li><a href="./resource.html">Resources</a></li>
+          <li><a href="./news.html">News</a></li>
+          <li><a href="./contact.html">Contact us</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="Fproducts">
+        <h4>Products</h4>
+        <ul>
+          <li><a href="./Product.html">All Products</a></li>
+          <li><a href="./light-duty.html">Light Duty Racks</a></li>
+          <li><a href="./medium-duty.html">Medium Duty Racks</a></li>
+          <li><a href="./heavy-duty.html"> Heavy Duty Racks</a></li>
+          <li><a href="./pallets.html">Pallets</a></li>
+        </ul>
+      </div>
+      <div class="address">
+        <h4>Address an Contact Details</h4>
+        <div class="flex">
+          <i class="fa-solid fa-location-dot"></i>
+          <p>Noida, Uttar Pradesh, India
+          </p>
         </div>
-        <div class="address">
-            <h4>Address an Contact Details</h4>
-            <div class="flex">
-                <i class="fa-solid fa-location-dot"></i>
-                <p>Noida, Uttar Pradesh, India
-                </p>
-            </div>
-            <div class="flex">
-                <i class="fa-solid fa-phone"></i>
-                <p>+91-99*****999 <br>
-                    Mon-Sat, 9am until 6pm</p>
-            </div>
-            <div class="flex">
-                <i class="fa-solid fa-envelope"></i>
-                <p>fakeid@gmail.com<br>
-                    We reply within 24 hours</p>
-            </div>
-            <div class="enquire">
-                <button onclick="location.href='./contact.html'">Enquire Now</button>
-            </div>
+        <div class="flex">
+          <i class="fa-solid fa-phone"></i>
+          <p>+91-99*****999 <br>
+            Mon-Sat, 9am until 6pm</p>
         </div>
+        <div class="flex">
+          <i class="fa-solid fa-envelope"></i>
+          <p>fakeid@gmail.com<br>
+            We reply within 24 hours</p>
+        </div>
+        <div class="enquire">
+          <button onclick="location.href='./contact.html'">Enquire Now</button>
+        </div>
+      </div>
     </div>
     <p class="last">Copyright <a href="#">&#169; JASIVA Building Material Co., Ltd.</a> All Rights Reserved</p>
-</footer>
+  </footer>
 
   <!-- ===== javascript ====  -->
   <script src="./javascript/script.js"></script>
